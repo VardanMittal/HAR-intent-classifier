@@ -1,0 +1,9 @@
+../../.venv/
+data/
+models/
+mlruns/
+mlruns.db
+__pycache__/
+*.pyc
+.env
+notebooks/figures/
