@@ -11,4 +11,8 @@ for key, value in config["paths"].items():
     config["paths"][key] = PROJECT_ROOT / value
 
 
-data = loader.load_dataset(config)
+X_train, y_train, subjects_train, X_test, y_test, subjects_test = loader.load_dataset(config)
+
+print(X_train.shape)
+print(y_train.shape)
+print(subjects_train.shape)
